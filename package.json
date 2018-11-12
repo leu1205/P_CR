@@ -1,0 +1,26 @@
+{
+  "name": "p_cr",
+  "version": "1.0.0",
+  "description": "基本版爬蟲程式，包含redis的消息佇列與使用MongoDB儲存資料",
+  "main": "Master.js",
+  "scripts": {
+    "test": "node start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leu1205/P_CR.git"
+  },
+  "author": "leu1205@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leu1205/P_CR/issues"
+  },
+  "homepage": "https://github.com/leu1205/P_CR#readme",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "cheerio": "^1.0.0-rc.2",
+    "mongodb": "^3.1.9",
+    "redis": "^2.8.0",
+    "request": "^2.88.0"
+  }
+}
